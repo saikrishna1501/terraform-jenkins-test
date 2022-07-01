@@ -22,7 +22,7 @@ resource "aws_security_group" "sg" {
     Name = "sg-test"
   }
 }
-
+#comment
 
 resource "aws_instance" "web" {
   ami           = "ami-0cff7528ff583bf9a"
